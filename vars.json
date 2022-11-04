@@ -1,0 +1,27 @@
+{
+  "endpoints": {
+    "api_url": "https://chain.so/api/v2/",
+    "NET": "DOGE/",
+    "BALANCE": "get_address_balance/",
+    "TX_UNSPENT": "get_tx_unspent/",
+    "TX_RECEIVED": "get_tx_received/",
+    "TX_SPENT": "get_tx_spent/",
+    "TXS_DETAILS": "get_tx/",
+    "TX": "tx/",
+    "addresses": {
+      "1": "DHSuXq6oyW9H21pEKugh8p22eGkccrr8SH",
+      "2": "DAsYJu4ByPutzMAUwQEyLKKKJaGdXS6z22",
+      "3": "D59SDT5oYNjXWoyQ1YpATVEqDy9ddQn3qS"
+    }
+  },
+  "messages": {
+    "log_path": "doge.log",
+    "m_log": {
+      "Start": "# Started DOGE plugin",
+      "End": "# Ended DOGE plugin",
+      "ErrorJSON": "## Exceptiom raised because no JSON file",
+      "Addedmov": "## Added new movement",
+      "Addedtx": "### Added new transaction"
+    }
+  }
+}
